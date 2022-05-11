@@ -45,7 +45,7 @@ async def start_(client: Client, message: Message):
 ~ Spam, Bigspam, Raid and LoveRaid
 ~ Audio And Video Download from YouTube
 
-Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
+Powered By [SUMIT ʙᴏᴛꜱ](t.me/iMi_SuMiT_Op) ...
 """,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -56,10 +56,10 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
                 ],
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
+                        "owner", url=f"https://t.me/iMi_SuMiT_Op"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/ITZ-ZAID/Zaid-Vc-Player"
+                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/opsumitop/Zaid-Vc-Player"
                     )
                 ],
                 [
@@ -79,7 +79,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
 @Client.on_message(commandpro(["/start", "/stats"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/dd9ca2b2122dd68ffab0e.png",
+        photo=f"https://te.legra.ph/file/876afe3b91296bf8ed00c.jpg",
         caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -101,7 +101,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/opsumitop/Zaid-Vc-Player")
                 ]
             ]
         ),
