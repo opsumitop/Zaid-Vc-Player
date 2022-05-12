@@ -36,7 +36,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""A Telegram Music Bot Based PyroGram.
+        caption=f"""A Telegram Music Bot('JBL VC BOT') Based PyroGram.
 
 💞 **Main Features**
 ~ Support Audio + Video Stream
@@ -64,10 +64,10 @@ Powered By [SUMIT ʙᴏᴛꜱ](t.me/iMi_SuMiT_Op) ...
                 ],
                 [
                     InlineKeyboardButton(
-                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Unknown_tg_world"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🇮🇳", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🇮🇳", url=f"https://t.me/Unknown_tg_world"
                     )
                 ]
                 
@@ -85,7 +85,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ 💞", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ 💞", url=f"https://t.me/Unknown_tg_world")
                 ]
             ]
         ),
@@ -95,7 +95,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/92688f2c44a35ba673c23.png",
+        photo=f"https://te.legra.ph/file/876afe3b91296bf8ed00c.jpg",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
