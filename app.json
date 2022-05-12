@@ -2,7 +2,7 @@
     "name": "Zaid Vc Player",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["Zaid", "Zaid-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/ITZ-ZAID/Zaid-Vc-Player",
+    "repository": "https://github.com/opsumitop/Zaid-Vc-Player",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -12,12 +12,12 @@
         "ASSISTANT_NAME": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "Zaid_assistant"
+            "value": "@iMi_SuMiT_Op"
         },
         "BOT_USERNAME": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": "Zaid2_Robot"
+            "value": "@jblvc_bot"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -27,7 +27,7 @@
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
-            "value": "4e984ea35f854762dcde906dce426c2d"
+            "value": "233ef51a2c05a3979f95d7c7730cf320"
         },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
@@ -52,7 +52,7 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "5365331495:AAHlhoTzl6yUjMyavQlKlBT0cN0k03Z3zuY"
         }
 
     },
