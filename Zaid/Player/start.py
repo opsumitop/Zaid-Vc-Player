@@ -56,7 +56,7 @@ Powered By [SUMIT ʙᴏᴛꜱ](t.me/iMi_SuMiT_Op) ...
                 ],
                 [
                     InlineKeyboardButton(
-                        "owner", url=f"https://t.me/iMi_SuMiT_Op"
+                        "°OWNER°", url=f"https://t.me/iMi_SuMiT_Op"
                     ),
                     InlineKeyboardButton(
                         "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/opsumitop/Zaid-Vc-Player"
